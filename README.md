@@ -4,11 +4,14 @@ Proffy é uma plataforma que ajuda alunos a encontrarem professores online. Dese
 ## Como executar o Proffy? 🤔
 
 ```bash
+  # clone o repositório
   git clone https://github.com/heyloh/Proffy.git
+  cd Proffy
 ```
 
 ### Server
 ```bash
+  # Inicie o servidor
   cd server
   yarn
   yarn start
@@ -16,6 +19,7 @@ Proffy é uma plataforma que ajuda alunos a encontrarem professores online. Dese
 
 ### Web
 ```bash
+  # Inicie o front-end Web
   cd web
   yarn
   yarn start
@@ -23,6 +27,7 @@ Proffy é uma plataforma que ajuda alunos a encontrarem professores online. Dese
 
 ### Mobile
 ```bash
+  # Inicie o front-end Mobile
   cd mobile
   yarn
   yarn start
