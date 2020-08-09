@@ -5,32 +5,32 @@ Proffy é uma plataforma que ajuda alunos a encontrarem professores online. Dese
 
 ```bash
   # clone o repositório
-  git clone https://github.com/heyloh/Proffy.git
-  cd Proffy
+  $ git clone https://github.com/heyloh/Proffy.git
+  $ cd Proffy
 ```
 
 ### Server
 ```bash
   # Inicie o servidor
-  cd server
-  yarn
-  yarn start
+  $ cd server
+  $ yarn
+  $ yarn start
 ```
 
-### Web
+### Web 🖥️
 ```bash
   # Inicie o front-end Web
-  cd web
-  yarn
-  yarn start
+  $ cd web
+  $ yarn
+  $ yarn start
 ```
 
-### Mobile
+### Mobile 📱
 ```bash
   # Inicie o front-end Mobile
-  cd mobile
-  yarn
-  yarn start
+  $ cd mobile
+  $ yarn
+  $ yarn start
 ```
 - Após rodar o App, escaneie o QR Code que aparecerá no navegador com o aplicativo do Expo para smartphone.
 - Pra fazer funcionar a conexão do Mobile com a API, é necessário alterar a URL do seu localhost no arquivo api.ts na pasta "mobile/src/services".
